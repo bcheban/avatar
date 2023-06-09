@@ -1,1 +1,3 @@
-# avatar
+# Avatar
+
+This is my project.
