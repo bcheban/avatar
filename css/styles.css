@@ -74,17 +74,6 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgb
     display: flex;
     width: 281px;
 }
-.nav-list-text{
-    text-decoration: none;
-    color: #212121;
-}
-.nav-list-text:hover{
-    color:#2196F3;
-}
-
-.nav-list-text:focus {
-    color:#2196F3;
-}
 
 .nav-list a {
     text-decoration: none;
@@ -92,7 +81,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgb
 }
 
 .nav-list-text{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -100,12 +89,8 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgb
     color: #FFFFFF;
     text-decoration: none;
 }
-.nav-list-text:hover{
-    font-family: 'Inter';
-    font-style: normal;
+.nav-list-text:hover, .nav-list-text:focus{
     font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
     color: #94CFFF;
 }
 
@@ -114,7 +99,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgb
     margin-left: 212px;
     width: 65px;
     height: 25px;
-    font-family: 'Headland One';
+    font-family: 'Headland One', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -143,7 +128,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgb
     margin-right: 10px;
     width: 30px;
     height: 20px;
-    font-family: 'Hammersmith One';
+    font-family: 'Hammersmith One', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -155,7 +140,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgb
     margin-left: 14px;
     width: 21px;
     height: 20px;
-    font-family: 'Hammersmith One';
+    font-family: 'Hammersmith One', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -186,7 +171,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgb
     display: flex;
     width: 298px;
     height: 96px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -206,7 +191,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgb
 .uk-translate{
     display: flex;
     width: 376px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -216,7 +201,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgb
 
 .hero-button{
     margin-top: 42px;
-    font-family: 'Headland One';
+    font-family: 'Headland One', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -253,7 +238,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgb
     padding: 75px 0 10px;
     margin: 0;
     text-align: center;
-    font-family: 'Inter' sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -267,7 +252,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgb
 
 .author{
     display: block;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -301,7 +286,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgb
 }
 
 .trailer-button{
-    font-family: 'Headland One';
+    font-family: 'Headland One', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
