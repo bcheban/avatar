@@ -61,7 +61,7 @@
               Борись разом з нами!
             </p>
 
-            <button type="button" class="hero-button">Приєднатися до<br/>клану</button>
+            <button type="button" class="hero-button" data-open-form-modal>Приєднатися до<br/>клану</button>
           </div>
 
           <div class="hero-right">
@@ -81,7 +81,7 @@
 
         <section class="trailer">
           <div class="div-button">
-            <button type="button" class="trailer-button">Дивитись трейлер</button>
+            <button type="button" class="trailer-button" data-open-video>Дивитись трейлер</button>
           </div>
         </section>
 
@@ -159,5 +159,61 @@
         </section>
       </footer>
     </div>
+
+    <!-- modal-form -->
+
+<div class="backdrop is-hidden" data-form-backdrop>
+  <form class="modal-form">
+      <button type="button" class="modal-button-close" data-close-form-modal>
+          <svg width="14" height="14" class="modal-svg-close">
+              <use href="./images/icons/symbol-defs.svg#first-close-icon"></use>
+          </svg>
+      </button>    
+          <label class="modal-label">Ім’я
+              <input type="text" class="modal-input">
+          </label>
+          <label class="modal-label">Email
+              <input type="email" class="modal-input">
+          </label>
+          <button type="button" class="modal-button" data-open-info-modal>
+              Приєднатися до <br/>
+              клану
+          </button>
+  </form>
+</div>
+
+<!-- modal-info -->
+
+<div class="backdrop is-hidden" data-info-backdrop>
+ <section class="info-modal">
+      <button type="button" class="modal-button-close" data-close-info-modal>
+          <svg width="14" height="14" class="info-modal-svg-close">
+              <use href="./images/icons/symbol-defs.svg#second-close-icon"></use>
+          </svg>
+      </button>
+      <h2 class="info-modal-title">
+          Вітаємо у нашому клані
+      </h2>
+      <p class="info-modal-text">
+          Твій Банші вже в дорозі. <br>
+Скоро побачимось на Пандорі.
+      </p>
+  </section>      
+</div>
+
+<div class="backdrop is-hidden" data-video-backdrop>
+  <div class="modal-video">
+    <button type="button" class="video-close" data-close-video>
+      <svg class="video-svg-close" width="14" height="14">
+        <use href="./images/icons/symbol-defs.svg#first-close-icon"></use>
+      </svg>
+    </button>
+    <h2 class="trailer-text">Трейлер</h2>
+    <iframe width="950" height="500" src="https://www.youtube.com/embed/E8Qe0vS_I3I" title="АВАТАР: ШЛЯХ ВОДИ | Офіційний український трейлер" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h2 class="trailer-text">Приємного перегляду!</h2>
+  </div>
+</div>
+
+  <script src="./js/modal.js"></script>
   </body>
 </html>
